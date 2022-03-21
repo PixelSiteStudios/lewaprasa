@@ -234,7 +234,7 @@
 
 .u-section-1 .u-btn-1,
 .u-section-1 .u-btn-1:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
 }
 
 .u-section-1 .u-btn-1.u-btn-1.u-btn-1:hover:before {
@@ -571,7 +571,7 @@
 
 .u-section-3 .u-btn-1,
 .u-section-3 .u-btn-1:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
 }
 
 .u-section-3 .u-btn-1.u-btn-1.u-btn-1:hover:before {
@@ -595,7 +595,6 @@
 }
 
 .u-section-4 .u-custom-html-1 {
-  height: auto;
   min-height: 611px;
   width: 1066px;
   margin: 30px auto 50px;
@@ -603,6 +602,7 @@
 
 @media (max-width: 1199px) {
   .u-section-4 .u-custom-html-1 {
+    height: auto;
     width: 940px;
   }
 }
